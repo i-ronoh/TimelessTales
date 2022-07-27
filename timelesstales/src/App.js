@@ -1,10 +1,11 @@
 import './App.css';
+import NavBar from "./components/Navigation/NavBar"
 
 function App() {
   return (
-    <div className="App">
-      Timeless Tales
-    </div>
+    <>
+      <NavBar />
+    </>
   );
 }
 
