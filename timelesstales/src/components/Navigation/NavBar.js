@@ -12,12 +12,13 @@ function NavBar() {
         </ul>
       </div>
       <div className = "navbar-item-center">
+        <i className="nav-dp fa-solid fa-user"></i>
         <input type="text" className="nav-search" placeholder="Search"></input>
       </div>
       <div className = "navbar-item-right">
-        {/* <img className="nav-dp" src="" alt="profile"/> */}
-        <i className="nav-dp fa-solid fa-user"></i>
-        <h5 className="nav-log">LOGIN</h5>
+        <h5 className="nav-menu-item">LOGIN</h5>
+        <h5 className="nav-menu-item">REGISTER</h5>
+
       </div>
     </div>
   )
