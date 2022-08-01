@@ -1,0 +1,10 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+    position: relative;
+    top: 50px;
+    color: rgb(77, 46, 17)
+}
