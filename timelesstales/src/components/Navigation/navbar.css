@@ -2,16 +2,14 @@
 .navbar {
     width: 100%;
     height: 80px;
-    background-color: green;
+    color: rgb(114, 85, 113);
     display: flex;
-    color: white;
+    background-color: white;
     position: sticky;
     top: 0;
     align-items: center;
-    /* font-family: 'Playfair Display SC', serif; */
     font-family: 'Cinzel', serif;
-    /* font-family: 'Lora', serif; */
-    /* font-family: 'Playfair Display', serif; */
+    z-index: 1;
 
 }
 
@@ -23,7 +21,7 @@
     display: flex !important;
 }
 
-.nav-menu-item {
+.nav-menu-item{
 list-style: none;
 padding: 10px;
 }
@@ -31,6 +29,7 @@ padding: 10px;
 .nav-dp {
     width: 50px;
     height: 50px;
+    color: black;
 }
 
 .navbar-item-center {
@@ -53,7 +52,7 @@ padding: 10px;
     height: 30px;
     padding: 10px;
     border-radius: 10px;
-    border: none;
+    border: 1px solid rgb(114, 85, 113);
     
 }
 
@@ -62,6 +61,6 @@ padding: 10px;
     padding: 10px;
     font-size: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
