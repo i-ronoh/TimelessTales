@@ -21,9 +21,16 @@
     display: flex !important;
 }
 
+.link {
+    text-decoration: none;
+}
 .nav-menu-item{
-list-style: none;
-padding: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-menu-item::hover {
+    color: brown;
 }
 
 .nav-dp {
@@ -59,7 +66,6 @@ padding: 10px;
 .navbar-item-right {
     display: flex;
     padding: 10px;
-    font-size: 20px;
     align-items: center;
     justify-content: space-around;
 }

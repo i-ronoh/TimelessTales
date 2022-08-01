@@ -1,14 +1,21 @@
 import React from 'react'
 import "./navbar.css"
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <div className="navbar">
       <div className = "navbar-item-left">
         <ul className="nav-menu">
-          <li className="nav-menu-item">HOME</li>
-          <li className="nav-menu-item">ARTICLES</li>
-          <li className="nav-menu-item">CREATE</li>
+          <li className="nav-menu-item" >
+            <Link className="link" to="/">HOME</Link>
+          </li>
+          <li className="nav-menu-item" >
+            <Link className="link"  to="/blogs">BLOG POSTS</Link> 
+          </li>
+          <li className="nav-menu-item">
+            <Link className="link" to="/createNew">NEW POST</Link>
+          </li>
         </ul>
       </div>
       <div className = "navbar-item-center">
@@ -16,9 +23,14 @@ function NavBar() {
         <input type="text" className="nav-search" placeholder="Search"></input>
       </div>
       <div className = "navbar-item-right">
-        <h5 className="nav-menu-item">LOGIN</h5>
-        <h5 className="nav-menu-item">REGISTER</h5>
-
+       <ul className="nav-menu">
+        <li className="nav-menu-item">
+            <Link className="link" to="/login">LOGIN</Link>
+          </li>
+          <li className="nav-menu-item">
+            <Link className="link"  to="/register">REGISTER</Link>
+          </li>
+       </ul>
       </div>
     </div>
   )
