@@ -4,12 +4,12 @@
     height: 80px;
     color: rgb(114, 85, 113);
     display: flex;
-    background-color: white;
-    position: sticky;
+    background-color:transparent;
+    /* position: sticky; */
     top: 0;
     align-items: center;
     font-family: 'Cinzel', serif;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navbar-item-left, .navbar-item-right{
