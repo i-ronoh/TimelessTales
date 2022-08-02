@@ -1,11 +1,68 @@
 {
-    "articles":[
-        {     
-            "id": 1,
-            "title": "Crypto Keys",
-            "link": "http://https://docs.google.com/document/d/1JaFrHE-AWl-j9evZcm_uug0cCx3xNCOA0BBgSGrWYhM/edit?usp=sharing",
-            "author": "John-David",
-            "date_created": "2015-07-01T00:00:00"
-        }  
-    ]
+  "articles": [
+    {
+      "id": 1,
+      "title": "Crypto Keys",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "data": "Backups come in three primary forms. A seed phrase, which is a 9-to-24 word passphrase of regular words. Or a wallet file backup, like a wallet.dat. Alternatively, it could be in the form of a private key, which is a long alphanumeric string. The kind of backup your wallet generates just depends on the wallet that you're using. So once you generate your backup, you will choose whether to email, Bluetooth, or Telegram it to yourself - among other options regardless of what kind it is.",
+      "author": "John-David",
+      "dateCreated": "2015-07-01T00:00:00"
+    },
+    {
+      "id": 2,
+      "title": "Crypto Keys",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "data": "Backups come in three primary forms. A seed phrase, which is a 9-to-24 word passphrase of regular words. Or a wallet file backup, like a wallet.dat. Alternatively, it could be in the form of a private key, which is a long alphanumeric string. The kind of backup your wallet generates just depends on the wallet that you're using. So once you generate your backup, you will choose whether to email, Bluetooth, or Telegram it to yourself - among other options regardless of what kind it is.",
+      "author": "John-David",
+      "dateCreated": "2015-07-01T00:00:00"
+    },
+    {
+      "title": "Title",
+      "data": "Blog",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "author": "Joe Doe",
+      "dateCreated": 1659420342993,
+      "id": 3
+    },
+    {
+      "title": "Ivy Project ",
+      "data": "Project Project",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "author": "Joe Doe",
+      "dateCreated": 1659420416121,
+      "id": 4
+    },
+    {
+      "title": "Titlefdfdfjn",
+      "data": "BLog blog blog",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "author": "Joe Doe",
+      "dateCreated": 1659420864871,
+      "id": 5
+    },
+    {
+      "title": "bhsdbasd",
+      "data": "jnajkndas",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "author": "Joe Doe",
+      "dateCreated": 1659420886844,
+      "id": 6
+    },
+    {
+      "title": "djandnas",
+      "data": "ndnasndas",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "author": "Joe Doe",
+      "dateCreated": 1659420909539,
+      "id": 7
+    },
+    {
+      "title": "Trial",
+      "data": "Run",
+      "image": "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "author": "Joe Doe",
+      "dateCreated": 1659436107311,
+      "id": 8
+    }
+  ]
 }
