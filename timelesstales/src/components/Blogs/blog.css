@@ -1,0 +1,24 @@
+.container {
+    display: block;
+    overflow: auto !important;
+    min-height: 100vh;
+}
+
+.card-img-top {
+    width:500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.card-title {
+    color: brown;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 900;
+    font-size: 2em;
+    letter-spacing: 1.5px;
+}
