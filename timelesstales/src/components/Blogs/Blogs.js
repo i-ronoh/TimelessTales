@@ -16,17 +16,17 @@ function Blogs () {
         <div className="container">
             {
                 blogs.map((blog)=>(
-                    <div className="row testing justify-content-md-center" style={{marginBottom: "3em", marginTop: "3em"}}>
+                    <div className="row justify-content-md-center" style={{marginBottom: "3em", marginTop: "3em"}} key={blog.id}>
                         <div className="col-md-8">
-                            <div class="card">
-                                <img src={blog.image} class="card-img-top" alt="..."
+                            <div className="card">
+                                <img src={blog.image} className="card-img-top" alt="..."
                                     style={{height: "40em", width: "auto"}}
                                 />
-                                <div class="card-body">
-                                    <h5 class="card-title">
+                                <div className="card-body">
+                                    <h5 className="card-title">
                                         {blog.title}
                                     </h5>
-                                    <p class="card-text">
+                                    <p className="card-text">
                                         S{blog.data}
                                     </p>
                                 </div>
