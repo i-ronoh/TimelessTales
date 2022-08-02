@@ -10,7 +10,6 @@
     align-items: center;
     font-family: 'Cinzel', serif;
     z-index: 1;
-
 }
 
 .navbar-item-left, .navbar-item-right{
@@ -24,6 +23,7 @@
 .link {
     text-decoration: none;
 }
+
 .nav-menu-item{
     list-style: none;
     padding: 10px;
@@ -40,14 +40,12 @@
 }
 
 .navbar-item-center {
-
     flex: 6;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     /* font-family: 'Playfair Display SC', serif; */
-
 }
 
 .navbar-item-left {
@@ -60,7 +58,6 @@
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(114, 85, 113);
-    
 }
 
 .navbar-item-right {

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from "./components/Login/Login"
 import Register from "./components/Register/Register"
 import New from "./components/CreateNew/New"
+import Blogs from "./components/Blogs/Blogs"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path='/login' element={<Login/>} />
         <Route exact path='/register' element={<Register/>} />
         <Route exact path='/createNew' element={<New/>} />
+        <Route exact path='/blogs' element={<Blogs/>} />
       </Routes>
     </Router>
   );
