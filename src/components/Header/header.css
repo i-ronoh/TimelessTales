@@ -1,10 +1,29 @@
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 5em;
-    position: relative;
-    top: 50px;
-    color: rgb(77, 46, 17)
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-size: 5em;
+  position: relative;
+  top: 50px;
+  color: rgb(77, 46, 17);
+}
+
+.headerContainer {
+  height: 100vh;
+  object-fit: cover;
+  background-image: url(https://images.unsplash.com/photo-1564047296-f15352912095?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+}
+
+.title {
+  position: relative;
+  top: 100px;
+  color: whitesmoke;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

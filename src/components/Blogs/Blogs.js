@@ -5,10 +5,11 @@ function Blogs () {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:4000/articles')
+        fetch('https://cosmic-dark-result.glitch.me/articles')
         .then((response) => response.json())
         .then((data) => {
             setBlogs(data);
+            console.log(data);
         })
     }, []);
 
