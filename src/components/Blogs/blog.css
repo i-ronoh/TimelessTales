@@ -1,15 +1,16 @@
 .blog-container {
     display: grid;
     overflow: auto !important;
+    gap: 60px;
 }
 
 .card-img-top {
-    width:500px;
+    width:450px;
     height: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 13px;
+    justify-content: space-around;
+    margin-left: 25px;
     margin-top: 20px;
     border-radius: 15px;
 }
@@ -20,4 +21,9 @@
     font-weight: 900;
     font-size: 2em;
     letter-spacing: 1.5px;
+}
+
+.flexx {
+    display: flex !important;
+    border: 2px solid red;
 }
