@@ -1,7 +1,6 @@
-.container {
-    display: block;
+.blog-container {
+    display: grid;
     overflow: auto !important;
-    min-height: 100vh;
 }
 
 .card-img-top {

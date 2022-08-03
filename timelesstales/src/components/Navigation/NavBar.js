@@ -18,10 +18,10 @@ function NavBar() {
           </li>
         </ul>
       </div>
-      <div className = "navbar-item-center">
+      {/* <div className = "navbar-item-center">
         <i className="nav-dp fa-solid fa-user"></i>
         <input type="text" className="nav-search" placeholder="Search"></input>
-      </div>
+      </div> */}
       <div className = "navbar-item-right">
        <ul className="nav-menu">
         <li className="nav-menu-item">

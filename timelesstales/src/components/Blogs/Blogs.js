@@ -13,7 +13,7 @@ function Blogs () {
     }, []);
 
     return(
-        <div className="container">
+        <div className="blog-container">
             {
                 blogs.map((blog)=>(
                     <div className="row" style={{marginBottom: "3em", marginTop: "3em"}} key={blog.id}>
