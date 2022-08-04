@@ -24,7 +24,7 @@ const New = () =>{
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(blog)
         }
-        fetch("http://localhost:4000/articles", requestBody)
+        fetch("https://timeless-tale.herokuapp.com/articles", requestBody)
             .then(response => response.json())
             .then(data => {
                 // do the redirect here here.
