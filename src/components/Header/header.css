@@ -31,7 +31,7 @@
   -webkit-text-stroke-color: #3e2917;
 }
 
-p {
+.description {
   color: whitesmoke;
   position: relative;
   top: 350px;
