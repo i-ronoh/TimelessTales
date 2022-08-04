@@ -1,70 +1,137 @@
-# Getting Started with Create React App
+# Timeless-Tales
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Author : IVY RONOH
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Timeless Tales: A blog app that allows you to view people's articles as well as write/post your own articles. This is my end of Phase-2 React Independent Project built using HTML, CSS & React JS.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## SCREENSHOTS
 
-### `npm test`
+## Landing Section
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ![image](./src/components/assets/TT%20Landing%20Page.png)
 
-### `npm run build`
+## Blog Posts Section
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ![image](./src/components/assets/TT%20Blog%20Posts.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Create Post Section
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ![image](./src/components/assets/TT%20New%20Post.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+***
+## Table of contents
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Technologies](#description)
+- [Description](#description)
+- [Features](#features)
+- [Live-link] (#  https://timeless-tale.herokuapp.com/)
+- [Setup-process](#setup_process)
+- [Licence](##licence)
+- [Copyright](#copyright)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Technologies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+languages used are:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- HTML :HTML5 -which is used to create the structure of thr page
+- CSS :CSS4 -used to style the page
+- JavaScript:ES6 -used to code app backend and front end
+- JSON : used as database
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Features
 
-### Analyzing the Bundle Size
+As a user you ase able to:
+1 View Blog Posts by others
+2 Create your own blog post
+3 Upload your blog post
+4 View dog services offered
+5 Sign up for newsletter
+6 Future:  register to get customized content & Comment/like posts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### description
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Timeless Tales: A blog app that allows you to view people's articles as well as write/post your own articles.
+---
 
-### Advanced Configuration
+### challenges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The major challenge I faced was fetching daa from API and successful deployment.  
+---
 
-### Deployment
+## How to set up and run the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Requirements
 
-### `npm run build` fails to minify
+- [npm](https://www.npmjs.com/)
+- Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Dependencies
+
+- npm
+
+---
+
+#### setup
+
+clone the repo using the command
+
+- $git clone https://github.com/i-ronoh/TimelessTales.git
+- change into directory using command
+- `$cd TimelessTales`
+- open the code in vs code with command
+- `code .`
+- install json server using the command
+- `npm install -g json-server`
+- start the json server
+- `json-server --watch db.json -p 4000`
+- use live server to run the front end
+
+---
+
+### Contributing to project
+
+- Fork the repo
+
+* Create a new branch in your terminal (git checkout -b improve-feature)
+* Install the prerequisites
+* Make appropriate changes in file(s)
+* Run the server to see the changes
+* Add the changes and commit them (git commit -am "Improve App")
+* Push to the branch (git push origin improve-app)
+* Create a Pull request
+
+---
+
+## Copyright
+
+Copyright(c)[2022][Ivy Ronoh]
+
+---
+
+## Contact Information
+
+- Email : ronoh.ivy@gmail.com
+
+---
+
+## [License](LICENSE)
+
+MIT License
+Copyright (c) 2022 Ivy Ronoh
