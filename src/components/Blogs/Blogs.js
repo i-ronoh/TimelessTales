@@ -5,7 +5,8 @@ function Blogs() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("https://cosmic-dark-result.glitch.me/articles")
+  //  fetch("https://cosmic-dark-result.glitch.me/articles")
+    fetch("https://timeless-tale.herokuapp.com/articles")
       .then((response) => response.json())
       .then((data) => {
         setBlogs(data);
@@ -18,7 +19,7 @@ function Blogs() {
         <div className="blog-head">
             <h3 className="blog-title">BLOG POSTS</h3>
         </div>
-    <div className="blog-container d-flex flex-wrap">
+    <div className="blog-container ">
       {blogs.map((blog) => (
         <div
           className="row "
