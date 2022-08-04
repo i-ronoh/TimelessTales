@@ -16,7 +16,7 @@ const New = () =>{
     }
 
     const postBlog = (e)=>{
-        blog.image = "https://images.unsplash.com/photo-1613389760701-ce57897d6c92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80";
+        blog.image = "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80";
         blog.author = "Joe Doe";
         blog.dateCreated = Date.now();
         let requestBody = {
