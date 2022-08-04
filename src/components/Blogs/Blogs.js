@@ -36,6 +36,7 @@ function Blogs() {
               />
               <div className="card-body">
                 <h5 className="card-title">{blog.title}</h5>
+                <h5 className="card-title">by {blog.author}</h5>
                 <p className="card-text">{blog.data}</p>
               </div>
             </div>
