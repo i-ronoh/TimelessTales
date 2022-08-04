@@ -4,7 +4,7 @@ import "./new.css"
 
 const New = () =>{
 
-    const [blog, setBlog] = useState({title: "", data: ""});
+    const [blog, setBlog] = useState({title: "", author: "", data: ""});
 
     const navigate = useNavigate();
 
@@ -17,7 +17,7 @@ const New = () =>{
 
     const postBlog = (e)=>{
         blog.image = "https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80";
-        blog.author = "Joe Doe";
+        blog.author = "";
         blog.dateCreated = Date.now();
         let requestBody = {
             method: "POST",
