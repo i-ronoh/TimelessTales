@@ -14,6 +14,10 @@ function Blogs() {
   }, []);
 
   return (
+    <>
+        <div className="blog-head">
+            <h3 className="blog-title">BLOG POSTS</h3>
+        </div>
     <div className="blog-container d-flex flex-wrap">
       {blogs.map((blog) => (
         <div
@@ -38,6 +42,7 @@ function Blogs() {
         </div>
       ))}
     </div>
+    </>
   );
 }
 
