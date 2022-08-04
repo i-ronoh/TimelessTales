@@ -25,10 +25,10 @@ function NavBar() {
       <div className = "navbar-item-right">
        <ul className="nav-menu">
         <li className="nav-menu-item">
-            <Link className="link" to="/login">LOGIN</Link>
+            <Link className="link" to="/login"></Link>
           </li>
           <li className="nav-menu-item">
-            <Link className="link"  to="/register">REGISTER</Link>
+            <Link className="link"  to="/register"></Link>
           </li>
        </ul>
       </div>

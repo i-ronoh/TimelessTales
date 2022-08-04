@@ -27,6 +27,11 @@
     font-weight: bold;
 }
 
+.link:hover {
+    transform: scale(0.9);
+    color: brown;
+}
+
 .nav-menu-item{
     list-style: none;
     padding: 10px;
